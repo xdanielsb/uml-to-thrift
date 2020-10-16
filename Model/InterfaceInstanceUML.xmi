@@ -5,4 +5,4 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:uml="http://uml/1.0"
     xsi:schemaLocation="http://uml/1.0 ../MetaModel/UML.ecore"
-    name="Interface"/>
+    name="name_method_api"/>

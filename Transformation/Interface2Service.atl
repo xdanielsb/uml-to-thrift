@@ -1,0 +1,14 @@
+-- @path UML=/UML2THRIFT/MetaModel/UML.ecore
+-- @path THRIFT=/UML2THRIFT/MetaModel/Thrift.ecore
+
+module Interface2Service;
+  
+create OUT: Thrift from IN: UML;
+
+
+rule Interface2Service {
+	from I: UML!Interface
+	to S: Thrift!Service(
+		name <- I.name
+	)
+}
